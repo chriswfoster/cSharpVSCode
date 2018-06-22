@@ -8,15 +8,24 @@ namespace list_quickstart
     {
         static void Main(string[] args)
         {
-             var names = new List<string> { "Chris", "Ana", "Felipe" };
-             names.Add("Chriswf");
-             names.Add("Atlas");
-             names.Remove("Ana");
-             names.Remove("Felipe"); //add and remove from the list using dot notation with Add and remove
-
+            var names = new List<string> { "Chris", "Ana", "Felipe" };
+            Console.WriteLine("\n ******* Original List: *******".ToUpper());
             foreach (var name in names)
             {
-                Console.WriteLine($"Hello {name.ToUpper()}!");
+                Console.WriteLine($"{name}");
+            }
+
+            //add and remove from the list using dot notation with Add and remove
+            names.Add("Chriswf");
+            names.Add("Atlas");
+            Console.WriteLine($" \n Removing: {names[1]} and {names[2]}");
+            names.Remove("Ana");
+            names.Remove("Felipe");
+            Console.WriteLine($" Adding: {names[1]} and {names[2]}");
+            Console.WriteLine(" \n ******* Modified List: *******".ToUpper());
+            foreach (var name in names)
+            {
+                Console.WriteLine($"Hello {name}!");
             }
         }
     }
