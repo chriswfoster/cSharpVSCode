@@ -28,6 +28,8 @@ namespace list_quickstart
             {
                 Console.WriteLine($"Hello {name}!");
             }
+
+            Console.Write($"Chriswf is at the index of {names.IndexOf("Chriswf")}");
         }
     }
 }
