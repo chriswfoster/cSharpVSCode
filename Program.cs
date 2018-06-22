@@ -22,6 +22,7 @@ namespace list_quickstart
             names.Remove("Ana");
             names.Remove("Felipe");
             Console.WriteLine($" Adding: {names[1]} and {names[2]}");
+            Console.WriteLine($"There are now {names.Count} names in this list");
             Console.WriteLine(" \n ******* Modified List: *******".ToUpper());
             foreach (var name in names)
             {
