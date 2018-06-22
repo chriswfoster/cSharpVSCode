@@ -1,0 +1,11 @@
+/Users/chriswf/Developing/c-sharp-dev/myApp/bin/Debug/netcoreapp2.1/myApp.deps.json
+/Users/chriswf/Developing/c-sharp-dev/myApp/bin/Debug/netcoreapp2.1/myApp.runtimeconfig.json
+/Users/chriswf/Developing/c-sharp-dev/myApp/bin/Debug/netcoreapp2.1/myApp.runtimeconfig.dev.json
+/Users/chriswf/Developing/c-sharp-dev/myApp/bin/Debug/netcoreapp2.1/myApp.dll
+/Users/chriswf/Developing/c-sharp-dev/myApp/bin/Debug/netcoreapp2.1/myApp.pdb
+/Users/chriswf/Developing/c-sharp-dev/myApp/obj/Debug/netcoreapp2.1/myApp.csprojAssemblyReference.cache
+/Users/chriswf/Developing/c-sharp-dev/myApp/obj/Debug/netcoreapp2.1/myApp.csproj.CoreCompileInputs.cache
+/Users/chriswf/Developing/c-sharp-dev/myApp/obj/Debug/netcoreapp2.1/myApp.AssemblyInfoInputs.cache
+/Users/chriswf/Developing/c-sharp-dev/myApp/obj/Debug/netcoreapp2.1/myApp.AssemblyInfo.cs
+/Users/chriswf/Developing/c-sharp-dev/myApp/obj/Debug/netcoreapp2.1/myApp.dll
+/Users/chriswf/Developing/c-sharp-dev/myApp/obj/Debug/netcoreapp2.1/myApp.pdb
