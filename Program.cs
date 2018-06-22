@@ -8,6 +8,9 @@ namespace list_quickstart
     {
         static void Main(string[] args)
         {
+            PlayingWithStrings();
+        }
+        public static void PlayingWithStrings(){
             var names = new List<string> { "Chris", "Ana", "Felipe" };
             Console.WriteLine("\n ******* Original List: *******".ToUpper());
             foreach (var name in names)
@@ -18,6 +21,7 @@ namespace list_quickstart
             //add and remove from the list using dot notation with Add and remove
             names.Add("Chriswf");
             names.Add("Atlas");
+            names.Add("Billy");
             Console.WriteLine($" \n Removing: {names[1]} and {names[2]}");
             names.Remove("Ana");
             names.Remove("Felipe");
@@ -29,7 +33,24 @@ namespace list_quickstart
                 Console.WriteLine($"Hello {name}!");
             }
 
-            Console.Write($"Chriswf is at the index of {names.IndexOf("Chriswf")}");
+            // Console.Write($"\nChriswf is at the index of {names.IndexOf("Chriswf")} \n");
+
+            Console.Write("\nSearching for user Chriswf...\n");
+            foreach (var name in names)
+            {
+                if (name != "Chriswf")
+                {
+                    Console.Write($"This isn't Chriswf, this is {name} with the index of {names.IndexOf(name)}!\n");
+                }
+                else Console.Write($"You found Chriswf at index 1!\n");
+            }
+
+            Console.Write("\nNow let's sort that list!\n");
+            names.Sort();
+            foreach (var name in names)
+            {
+                Console.Write($"{name} \n");
+            }
         }
     }
 }
